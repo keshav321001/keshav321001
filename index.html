@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoWorld - Car Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">AUTO<span>WORLD</span></h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <button class="nav-btn" onclick="contactUs()">Contact</button>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h4>WELCOME TO AUTOWORLD</h4>
+            <h1>DRIVE YOUR <span>DREAM</span></h1>
+            <p>Discover the world's most beautiful and powerful luxury cars.</p>
+            <a href="#cars" class="btn">Explore Cars</a>
+        </div>
+    </section>
+
+    <section class="cars" id="cars">
+        <h2>Our Featured Cars</h2>
+        <p class="subtitle">Choose your dream machine</p>
+
+        <div class="car-container">
+
+            <div class="car-card">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800" alt="Porsche">
+                <h3>Porsche 911</h3>
+                <p>Luxury Sports Car</p>
+                <h4>$120,000</h4>
+                <button onclick="showDetails('Porsche 911')">View Details</button>
+            </div>
+
+            <div class="car-card">
+                <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800" alt="Ferrari">
+                <h3>Ferrari</h3>
+                <p>Super Sports Car</p>
+                <h4>$250,000</h4>
+                <button onclick="showDetails('Ferrari')">View Details</button>
+            </div>
+
+            <div class="car-card">
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800" alt="BMW">
+                <h3>BMW M4</h3>
+                <p>Premium Luxury Car</p>
+                <h4>$85,000</h4>
+                <button onclick="showDetails('BMW M4')">View Details</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About AutoWorld</h2>
+        <p>
+            AutoWorld is a car showcase website where you can
+            explore premium, luxury and sports cars.
+            Find your dream car with us!
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 AutoWorld | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
